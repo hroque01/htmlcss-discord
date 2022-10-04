@@ -245,30 +245,53 @@ header {
 
 /* footer */
 footer {
-    height: 500px;
+    height: 1000px;
     background-color: fuchsia;
 }
 
-.row-flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 7%;
+    .row-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 7%;
 
-}
+    }
 
-.col {
-    width: 10%;
-    height: 200px;
-    background-color: grey;
-    margin-top: 7%;
-}
+        .col-main {
+            width: 20%;
+            height: 200px;
+            background-color: grey;
+            margin-top: 7%;
+        }
 
-.footer-logs {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-top: 1px solid black;
-}
+        #col-testo-main {
+            font-size: 50px;
+            margin-bottom: 5%;
+        }
+
+        #Bandiera {
+            width: 30px;
+            float: left;
+            vertical-align: middle;
+            margin-right: 2%;
+        }
+
+        #Lingua {
+            color: white;
+        }
+
+         .col {
+            width: 10%;
+            height: 200px;
+            background-color: grey;
+            margin-top: 7%;
+        }
+
+        .footer-logs {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: 5%;
+            margin-right: 5%;
+            border-top: 1px solid black;
+        }
