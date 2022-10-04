@@ -58,20 +58,64 @@ nav {
 /* Testo principale */
 
 .paragrafo-princ {
-    width: 35%;
+    width: 40%;
+    height: 300px;
     margin: 0 auto;
     text-align: center;
     color: white;
 }
 
-.Titolo-Jumbo {
-    font-size: 40px;
-    margin-bottom: 5%;
+    .Titolo-Jumbo {
+        font-size: 40px;
+        margin-bottom: 5%;
+    }
+
+    p {
+        line-height: 170%;
+    }
+
+/* Downloads&Browser */
+.Downloads {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
 }
 
-p {
-    line-height: 170%;
-}
+    /* SCARICA PER MAC */
+    .Scarica-Top {
+        background-color: white;;
+        border-radius: 40px;
+        text-align: center;
+        margin-top: 1%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .link-scarica-top {
+        color: black;
+        text-decoration: none;
+    }
+
+    /* APRI DISCORD NEL TUO BROWSER */
+    .apri {
+        background-color: black;;
+        border-radius: 40px;
+        text-align: center;
+        margin-top: 1%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .link-apri  {
+        color: white;
+        text-decoration: none;
+    }
+
+
 /* Main */
 
 .high-container {
