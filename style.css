@@ -296,9 +296,25 @@ footer {
     .col {
          width: 10%;
         height: 200px;
-         background-color: grey;
         margin-top: 7%;
      }
+
+        .sottotitolo {
+            color: #5865f2;
+        }
+
+        .lista {
+            margin-top: 10%; 
+        }
+
+        .col-link {
+            padding-bottom: 10%;
+        }
+
+        .col-link a {
+            text-decoration: none;
+            color: white;
+        }
 
     .footer-logs {
          display: flex;
@@ -306,5 +322,23 @@ footer {
          justify-content: space-between;
          margin-left: 5%;
          margin-right: 5%;
-         border-top: 1px solid black;
+         border-top: 1px solid #5865f2;
     }
+
+        .Registrati {
+            font-size: 15px;
+            background-color: #5865f2;
+            border-radius: 40px;
+            text-align: center;
+            margin-top: 1%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 10%;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        
+        .link-registrati {
+            color: white;
+            text-decoration: none;
+        }
