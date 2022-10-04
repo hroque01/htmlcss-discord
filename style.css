@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 500px;
+    background-color: blue;
+}
+
+/* Parte alta dell'intestazione */
+.higher-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 7%;
+
+}
+
+.logo {
+    width: 10%;
+    min-height: 100px;
+    background-color: lightblue;
+}
+nav {
+    width: 35%;
+    min-height: 100px;
+    background-color: purple;
+}
+
+.accedi {
+    width: 10%;
+    min-height: 100px;
+    background-color: pink;
+}
+
+/* Testo principale */
+
+.paragrafo-princ {
+    width: 35%;
+    min-height: 200px;
+    background: green;
+    margin: 0 auto;
+}
+
+/* Main */
+
+.high-container {
+    height: 500px;
+    background-color: red;
+}
+
+.high-mid-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img {
+    width: 20%;
+    min-height: 200px;
+    background-color: orange;
+    margin-top: 120px;
+}
+
+.testo-sx {
+    width: 20%;
+    min-height: 200px;
+    margin-top: 120px;
+    background-color: yellow;
+}
+
+/* middle */
+.mid-container {
+    height: 500px;
+    background-color: rgb(99, 123, 3);
+}
+
+.mid-mid-flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+
+/* low */
+
+.low-container {
+    height: 500px;
+    background-color: rgb(3, 53, 123);
+}
+
+.low-mid-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* end container */
+
+.end-container {
+    height: 1100px;
+    background-color: bor;
+    
+}
+
+.end-mid-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.end-img {
+    width: 20%;
+    min-height: 200px;
+    background-color: orange;
+    margin-top: 120px;
+}
+
+.paratext {
+    width: 20%;
+    min-height: 200px;
+    margin-top: 120px;
+    background-color: yellow;
+}
+
+.button-file {
+    width: 20%;
+    min-height: 200px;
+    margin-top: 120px;
+    background-color: rgb(0, 152, 157);
+    margin-bottom: 50%;
+}
+
+/* footer */
+footer {
+    height: 500px;
+    background-color: fuchsia;
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 7%;
+
+}
+
+.col {
+    width: 10%;
+    height: 200px;
+    background-color: grey;
+    margin-top: 7%;
+}
+
+.footer-logs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-top: 1px solid black;
+}
