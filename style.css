@@ -9,7 +9,6 @@ header {
     background-image: url(img/jumbo.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 600px;
 }
 
 /* Parte alta dell'intestazione */
@@ -18,7 +17,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
     /* LOGO DISCORD */
@@ -49,6 +48,8 @@ header {
             text-align: center;
             margin-top: 1%;
             padding-top: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 10%;
             padding-left: 15px;
             padding-right: 15px;
         }
@@ -62,7 +63,7 @@ header {
 /* Testo principale */
 .paragrafo-princ {
     width: 40%;
-    height: 300px;
+    height: 500px;
     margin: 0 auto;
     text-align: center;
     color: white;
@@ -246,7 +247,7 @@ header {
 /* footer */
 footer {
     height: 1000px;
-    background-color: fuchsia;
+    background-color: #23272a;
 }
 
     .row-flex {
@@ -260,13 +261,13 @@ footer {
         .col-main {
             width: 20%;
             height: 200px;
-            background-color: grey;
             margin-top: 7%;
         }
 
         #col-testo-main {
             font-size: 50px;
             margin-bottom: 5%;
+            color: #5865f2;
         }
 
         #Bandiera {
@@ -280,18 +281,30 @@ footer {
             color: white;
         }
 
-         .col {
-            width: 10%;
-            height: 200px;
-            background-color: grey;
-            margin-top: 7%;
+        .socialmedia {
+            margin-top: 5%;
         }
 
-        .footer-logs {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            margin-left: 5%;
+        .socialmedia a {
+            width: 100%;
             margin-right: 5%;
-            border-top: 1px solid black;
+            font-size: 20px;
+            color: white;
+            text-decoration: none;
         }
+
+    .col {
+         width: 10%;
+        height: 200px;
+         background-color: grey;
+        margin-top: 7%;
+     }
+
+    .footer-logs {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         margin-left: 5%;
+         margin-right: 5%;
+         border-top: 1px solid black;
+    }
