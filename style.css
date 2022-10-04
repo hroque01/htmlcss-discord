@@ -5,8 +5,10 @@
 }
 
 header {
-    height: 500px;
-    /* background-color: blue; */
+    background-image: url(img/jumbo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1000px;
 }
 
 /* Parte alta dell'intestazione */
@@ -14,24 +16,28 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-bottom: 7%;
-
+    margin-bottom: 5%;
 }
 
 .logo {
     width: 10%;
     min-height: 100px;
-    background-color: lightblue;
+    margin-top: 1.5%;
+    /* background-color: lightblue; */
 }
 
 nav {
     width: 35%;
     min-height: 100px;
-    /* background-color: purple; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
 }
+
 
 .header-nav {
     text-decoration: none;
+    color: white;
 }
 
 .accedi {
@@ -53,7 +59,7 @@ nav {
 
 .high-container {
     height: 500px;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .high-mid-flex {
